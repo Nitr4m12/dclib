@@ -11,6 +11,15 @@ target_include_directories(${PROJECT_NAME}
 )
 
 ## ----------------------
+##    LINK LIBRARIES
+## ----------------------
+
+target_link_libraries(${PROJECT_NAME} PUBLIC m)
+
+find_package(Curses REQUIRED)
+target_link_libraries(${PROJECT_NAME} PUBLIC ncurses)
+
+## ----------------------
 ##    COMPILE OPTIONS
 ## ----------------------
 

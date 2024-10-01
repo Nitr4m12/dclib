@@ -40,7 +40,7 @@
 #include <errno.h>
 #include <signal.h>
 #include <sys/ioctl.h>
-//#include <ncurses/curses.h>
+// #include <curses.h>
 //#include <term.h>
 
 #include "dclib/dclib-color.h"
